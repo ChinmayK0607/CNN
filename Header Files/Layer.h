@@ -2,10 +2,10 @@
 
 #include <Eigen/Core>
 #include <vector>
-#include "Config.h"
+//#include "Config.h"  -> Deprecated 
 #include "RandomNumberGenerator.h"
 #include "Optimizer.h"
-
+typedef double Scalar;
 class Layer
 {
 	protected:
